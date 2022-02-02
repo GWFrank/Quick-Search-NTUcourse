@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Quick Search NTUcourse",
+    "version": "1.0",
+  
+    "description": "Click to search for course reviews on PTT/NTUCourse.",
+    "icons": {
+      "48": "icons/icon.svg",
+      "96": "icons/icon.svg"
+    },
+  
+    "content_scripts": [
+        {
+          "matches": ["*://nol.ntu.edu.tw/*"],
+          "js": ["qs.js"]
+        }
+      ]
+  
+  }
+  
