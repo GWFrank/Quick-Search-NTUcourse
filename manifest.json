@@ -11,8 +11,8 @@
   
     "content_scripts": [
         {
-          "matches": ["*://nol.ntu.edu.tw/*"],
-          "js": ["qs.js"]
+          "matches": ["*://nol.ntu.edu.tw/*", "*://nol2.aca.ntu.edu.tw/*"],
+          "js": ["content_scripts/qs.js"]
         }
       ]
   
