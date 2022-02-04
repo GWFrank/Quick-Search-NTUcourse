@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Quick Search NTUcourse",
-    "version": "1.0",
+    "version": "0.1.0",
     "description": "Click to search for course reviews on PTT/NTUCourse.",
     "homepage_url": "https://github.com/GWFrank/Quick-Search-NTUcourse",
     "icons": {
