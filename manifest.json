@@ -2,19 +2,26 @@
     "manifest_version": 2,
     "name": "Quick Search NTUcourse",
     "version": "1.0",
-  
     "description": "Click to search for course reviews on PTT/NTUCourse.",
+    "homepage_url": "https://github.com/GWFrank/Quick-Search-NTUcourse",
     "icons": {
-      "48": "icons/icon.svg",
-      "96": "icons/icon.svg"
+        "48": "icons/icon.svg",
+        "96": "icons/icon.svg"
     },
-  
     "content_scripts": [
         {
-          "matches": ["*://nol.ntu.edu.tw/*", "*://nol2.aca.ntu.edu.tw/*"],
-          "js": ["content_scripts/qs.js"]
+            "matches": [
+                "*://nol.ntu.edu.tw/*",
+                "*://nol2.aca.ntu.edu.tw/*"
+            ],
+            "js": [
+                "content_scripts/qs.js"
+            ]
         }
-      ]
-  
-  }
-  
+    ],
+    "browser_specific_settings": {
+        "gecko": {
+          "update_url": "https://raw.githubusercontent.com/GWFrank/Quick-Search-NTUcourse/updates/firefox-updates.json"
+        }
+    }
+}
