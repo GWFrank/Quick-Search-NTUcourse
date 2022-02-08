@@ -2,6 +2,10 @@
     "addons": {
         "{de700490-b038-4466-97dc-2ea0794120ca}": {
             "updates": [
+                {
+                    "version": "0.1.1",
+                    "update_link": "https://github.com/GWFrank/Quick-Search-NTUcourse/releases/download/v0.1.1/quick_search_ntucourse-firefox-v0.1.1-fx.xpi"
+                }
             ]
         }
     }
