@@ -65,11 +65,11 @@ function addSearchLinks(root) {
 }
 
 function checkURL(url) {
-    var nol_kw = "coursesearch", menu_kw = "index.php";
+    var nol_kw = "coursesearch", menu_kw = "index.php", info_kw = "print_table.php";
     if (!url.includes(nol_kw)) {
         return false;
     } else {
-        if (url.includes(menu_kw)) {
+        if (url.includes(menu_kw) || url.includes(info_kw)) {
             return false;
         } else {
             return true;
