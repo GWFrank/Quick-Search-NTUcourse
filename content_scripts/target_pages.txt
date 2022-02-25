@@ -1,0 +1,15 @@
+search_result.php 
+search_for_01_major.php
+search_for_02_dpt.php
+search_for_03_co.php
+search_for_10_class.php
+search_for_05_ec.php
+search_for_07_uw.php
+search_for_14_write.php
+search_for_09_gym.php
+search_for_04_dt.php
+search_for_16_tri.php
+search_for_17_in.php
+search_for_11_asy.php
+search_for_13_eng.php
+search_for_12_cha.php
